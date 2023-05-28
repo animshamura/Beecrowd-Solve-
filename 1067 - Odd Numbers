@@ -1,0 +1,10 @@
+import java.util.*;
+
+fun main(args: Array<String>) {
+  var a:Int = readLine()!!.toInt()
+  var x:Int = 1
+  while(x<=a){
+      println(x)
+      x=x+2
+  }
+}
